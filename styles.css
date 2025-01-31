@@ -197,6 +197,22 @@ img {
 }
 
 /* Responsive Styles */
+
+.hide-in-large {
+  display: none; /* This hides 'Av' on all screens */
+}
+
+@media (max-width: 768px) {
+  .hide-in-small {
+    display: block !important; /* Ensure ATHARV PATEL stays visible */
+    text-align: center;
+  }
+}
+
+
+
+
+
 @media (max-width: 768px) {
   .md\:hidden {
     display: none;
